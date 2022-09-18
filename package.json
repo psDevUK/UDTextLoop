@@ -1,0 +1,43 @@
+{
+  "name": "component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p --env production",
+    "dev": "webpack-dev-server --config webpack.config.js -p --env development"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cxs": "^6.2.0",
+    "js-tokens": "^8.0.0",
+    "loose-envify": "^1.4.0",
+    "object-assign": "^4.1.1",
+    "performance-now": "^2.1.0",
+    "performance-now2": "^1.0.3",
+    "prop-types": "^15.8.1",
+    "raf": "^3.4.1",
+    "react-is": "^18.2.0",
+    "react-motion": "^0.5.2",
+    "react-text-loop-next": "^0.0.3",
+    "universal-dashboard": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.4",
+    "css-loader": "^0.28.7",
+    "file-loader": "2.0.0",
+    "style-loader": "0.23.1",
+    "uglifyjs-webpack-plugin": "0.4.6",
+    "webpack": "4.21.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "3.1.11"
+  }
+}
